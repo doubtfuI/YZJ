@@ -1,0 +1,86 @@
+#body_menu{
+    margin-top: 70px;
+}
+#login_main{
+    width: 900px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -450px;
+    background-color: deepskyblue;
+    text-align: center;
+}
+#login_inner{
+    width: 500px;
+    height: 300px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -160px;
+    text-align: center;
+}
+#register_inner{
+    width: 500px;
+    height: 300px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+    text-align: center;
+}
+#manege_menu{
+    margin-top: 0;
+    width: 200px;
+    position: fixed;
+    float: left;
+}
+#manege_content{
+    float: left;
+    position: absolute;
+    left: 200px;
+    margin-left: 30px;
+}
+table, td, th{
+    color: #337ab7;
+    border: 1px solid #337ab7;
+}
+#table{
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+}
+td, th{
+    min-height: 30px;
+    min-width: 100px;
+    padding: 10px;
+}
+.login_input{
+    width: 250px;
+    height: 40px;
+}
+.red{
+    color: red;
+}
+.white{
+    color: white;
+}
+.top_10{
+    z-index: 10;
+}
+.menu_button{
+    width: 45px;
+    height: 45px;
+    background-color: #f14545;
+    display: inline-block;
+}
+#u_indexlogo{
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.u_top{
+    z-index: 10;
+}

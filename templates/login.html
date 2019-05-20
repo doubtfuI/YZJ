@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to login</title>
+    <link rel="icon" href="/static/img/icon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="/static/plugins/bootstrap/css/bootstrap.min3.css">
+    <link href="/static/css/style_f.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="/static/css/common.css">
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="header-brand" href="/index">
+                    <img src="/static/img/brand/logo.png" height="60" width="210" class="header-brand-img" alt="here is a logo">
+                </a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div id="login_main-">
+    <div class="w3_mail_grids">
+        <form action="/login.html" method="post">
+            <div id="login_inner">
+                <div>
+                    <div class="red err_msg">{{ err_msg }}</div>
+                    <input type="text" name="user_name" placeholder="User Name" required>
+                    <input type="password" name="password" placeholder="Password" required/>
+                    <div>
+                        <input class="top_10" type="submit" value="Log in">
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div>
+                        <input id="u_signup" class="top_10" type="button" value="Register">
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="/static/js/common.js"></script>
+</html>
