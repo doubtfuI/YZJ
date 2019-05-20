@@ -1,8 +1,8 @@
-# THE-ZJ-s
+# THE-ZJ-s(YZJ)
 
 ### 简介：
 
-**THE JS's 是一个基于python3.7+Django2.2+mysql的在线水果零售商商城+库存管理系统**
+**THE ZJ's 是一个基于python3.7+Django2.2+mysql的在线水果零售商商城+库存管理系统**
 
 ***
 
